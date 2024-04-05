@@ -1,0 +1,66 @@
+html{
+    background-color: rgb(66, 72, 103);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+h2{
+  color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 10%;
+}
+
+.leftDice{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.dice{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows:  1fr 2fr 2fr 2fr 1fr;
+    gap: 30px;
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+}
+.circles{
+    background-color: aliceblue;
+    /* width: 50px;
+    height: 50px; */
+    border-radius: 30px;
+}
+.c1{
+  grid-area:2/2/3/3;
+ 
+}
+.c2{
+  grid-area:2/3/3/4;
+  }
+  .c3{
+    grid-area:2/4/3/5;
+  }
+  .c4{
+    grid-area:4/2/5/3;
+  }
+  .c5{
+    grid-area:4/3/5/4;
+    }
+    .c6{
+      grid-area:4/4/5/5;
+    }
+    .c7{
+      grid-area:3/3/3/3;   
+    }
+    .remove{
+      visibility: hidden;
+    }
